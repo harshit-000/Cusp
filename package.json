@@ -10,6 +10,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "config:check": "tsx scripts/check-config.ts",
+    "config:json": "tsx scripts/config-json.ts",
     "probe": "tsx scripts/probe.ts",
     "ingest": "tsx --env-file=.env scripts/ingest.ts",
     "rescore": "tsx --env-file=.env scripts/rescore.ts",
